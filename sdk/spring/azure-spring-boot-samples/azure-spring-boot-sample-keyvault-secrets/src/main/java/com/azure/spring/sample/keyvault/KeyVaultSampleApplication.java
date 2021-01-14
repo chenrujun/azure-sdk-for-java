@@ -23,7 +23,7 @@ public class KeyVaultSampleApplication implements CommandLineRunner {
     }
 
     public void run(String[] args) {
-        System.out.println("property springDataSourceUrl in Azure Key Vault: " + springDataSourceUrl);
+        System.out.println("property spring-data-source-url in Azure Key Vault: " + springDataSourceUrl);
     }
 
 }
